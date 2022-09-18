@@ -7,7 +7,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 ## Team 
 <_each team member clones repo and then edits/replace with their name below_>
 - Jarett Forzano
-- MEMBER02
+- Oleg Lazari
 - MEMBER03
 - MEMBER04
 
