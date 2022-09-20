@@ -10,6 +10,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Oleg Lazari
 - Noah Lago
 - Elvis Lin
+- Giahna Lafromboise
 
 
 ## Prerequisites  <_add anything else that applies_>
