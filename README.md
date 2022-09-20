@@ -9,7 +9,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 - Jarett Forzano
 - Oleg Lazari
 - Noah Lago
-- MEMBER04
+- Elvis Lin
 
 
 ## Prerequisites  <_add anything else that applies_>
