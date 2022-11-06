@@ -1,0 +1,23 @@
+/* create a button style, slightly rounded corners, semi-dark blue background, white text. Large size*/
+.button {
+    background-color: #1c72ce; /* Green */
+    border: #ffffff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* light blue background for the entire page */
+body {
+    background-color: #e6f2ff;
+}
+
+/* Path: index.html */
+
+
