@@ -18,7 +18,14 @@
 /* light blue background for the entire page */
 body {
     background-color: #e6f2ff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/*change the global font to Helvetica Neue */
+h1, h2, h3, h4, p, h5, h6, div, button, input, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 
 div {
