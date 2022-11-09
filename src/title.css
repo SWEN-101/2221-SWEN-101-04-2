@@ -1,0 +1,130 @@
+/* create a button style, slightly rounded corners, semi-dark blue background, white text. Large size*/
+.big_button {
+    background-color: #1c72ce; /* Green */
+    width: 42%;
+    height: 40%;
+    border: 3px solid #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 56px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/* light blue background for the entire page */
+body {
+    background-color: #e6f2ff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*change the global font to Helvetica Neue */
+h1, h2, h3, h4, p, h5, h6, div, button, input, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    --color-primary: #166cce;
+    --color-primary-dark: #166cce;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #166cce;
+    --border-radius: 4px;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(./e6f2ff.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1600px;
+    max-width: 1600px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #e6f2ff;
+}
+
+.text-container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #e6f2ff;
+    /* changes the location to the center of the container it's in */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17%;
+}
+
+
+
+.userbuttons {
+    float: right;
+    margin-top: -150px;
+    margin-right: 50px;
+}
+
+.signinbutton {
+    float: right;
+    margin-top: -100px;
+    margin-right: 50px;
+}
+
+.signupbutton {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.sign-up-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.sign-up-button:hover {
+  background-color: #3e8e41;
+}
+
+.sign-in-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.sign-in-button:hover {
+  background-color: #3e8e41;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* font should wrap around */
+    white-space: normal;
+    word-wrap: break-word;
+}
