@@ -9,28 +9,35 @@
 </head>
 <body>
     <div class="container">
+        <!--Contains input fields for the user to enter the information needed to create a new account-->
         <form class="form" id="createAccount">
             <h1 class="form__title">Create Account</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
                 <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
                 <div class="form__input-error-message"></div>
+                <!--Asks user for the username they want to create their account with-->
             </div>
             <div class="form__input-group">
                 <input type="text" class="form__input" autofocus placeholder="Email Address">
                 <div class="form__input-error-message"></div>
+                <!--Asks user for the email address they want to link their account to-->
             </div>
             <div class="form__input-group">
                 <input type="password" class="form__input" autofocus placeholder="Password">
                 <div class="form__input-error-message"></div>
+                <!--Asks the user for the password they want to set for their account-->
             </div>
             <div class="form__input-group">
                 <input type="password" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
+                <!--Has the user confirm their password by re-entering it-->
             </div>
             <button class="form__button" type="submit">Continue</button>
+            <!--brings the user to-->
             <p class="form__text">
                 <a class="form__link" href="./login.html" id="linkLogin">Already have an account? Sign in</a>
+                <!--Brings the user back to login page to log in with an already existing account-->
             </p>
         </form>
     </div>
