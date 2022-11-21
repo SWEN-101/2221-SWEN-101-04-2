@@ -7,28 +7,39 @@
     <link rel="stylesheet" href="src/page2.css">
 </head>
 <body>
+    <!--Create a text heading saying welcome user-->
+    <div class="heading_container">
+        <div class="heading">
+            <!-- set the font the a thin sans-serif font-->
+            <h1>Welcome<span id="user_name"></span></h1>
+        </div>
+    </div>
+    
+
     <div class="container">
-        <form action ="page3.html" class="example1">
-            <input type="submit" value="Example 1"/>
-        </form>
-        <form action ="page4.html" class="example2">
-            <input type="submit" value="Example 2"/>
-        </form>
-        <form action ="page5.html" class="example3">
-            <input type="submit" value="Example 3"/>
-        </form>
+        <div class="buttons">
+            <a href="page3.html">
+                <button class="example_buttons">Example 1</button>
+            </a>
+            <a href="page4.html">
+                <button class="example_buttons">Example 2</button>
+            </a>
+            <a href="page5.html">
+                <button class="example_buttons">Example 3</button>
+            </a>
+        </div>
     </div>
 
-    <div class="footer-left">
-        <a href="aboutus.html">
-        <button class="privacy-policy">About Us</button>
-    </div>
-
-
-    <div class="footer-right">
-        <a href="privacypolicy.html">
-            <button class="privacy-policy">Privacy Policy</button>
-        </a>
-    </div>
+        <div class="footer-left">
+            <a href="aboutus.html">
+            <button class="privacy-policy">About Us</button>
+        </div>
+    
+        <div class="footer-right">
+            <a href="privacypolicy.html">
+                <button class="privacy-policy">Privacy Policy</button>
+            </a>
+        </div>
+    
 </body>
 </html>
