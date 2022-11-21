@@ -18,7 +18,37 @@ body {
     background-size: cover;
 }
 
-/* create a container for the examples */
+/* set the heading container to be a container in the center top of the screen */
+
+
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.heading {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(75, 67, 67);
+    font-size: 3rem;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0 0.5rem #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
 
 .container {
     width: 1600px;
@@ -30,25 +60,31 @@ body {
     background: #e6f2ff;
 }
 
-.example1 
-
-
-
-
-
-
-
-/* set privacy policy and about us to the bottom of the page */
-
-.footer-right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: right;
+.example_buttons {
+    background-color: #252c6a; /* Green */
+    border: none;
     color: white;
-    margin-right: 10%;
-    margin-bottom: 10%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.example_buttons:hover {
+    background-color: #166cce; /* Green */
+    color: white;
+}
+
+/* space out the buttons in the container buttons */
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
 }
 
 .privacy-policy {
@@ -68,16 +104,21 @@ body {
     color: white;
   }
 
-  
+ /* move the footer-left button to the bottom left */ 
 .footer-left {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
-    text-align: left;
-    color: white;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin: 10%
+}
+
+/* move the footer-right button to the bottom right */
+
+.footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10%
 }
 
 
