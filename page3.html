@@ -1,32 +1,78 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RateMyData: Example</title>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  float: top;
+  width: 33.33%;
+  padding: 2px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  font-style: oblique;
+  font-size: larger;
+  border: 12px, rgb(124, 17, 17);
+  border-width: 1ch;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: 1px, rgb(81, 18, 18);
+}
+
+
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-    <!---make a pale yellow rectangle horizontally centered on the screen and centered vertically on the screen, 4/5 the width of the screen with 3 light blue buttons spaced evenly inside it and centered vertically and horizontally saying Example 1, Example 2, Example 3-->
-    <div style="background-color: #FFFFCC; width: 80%; height: 200px; margin: 20vh; display: flex; justify-content: space-around; align-items: center;">
-        <button style="background-color: lightblue; color: black; width: 20%; height: 60%;" ></a>Example Website</button>
-        
-    </div>
 
-    <div style="position: absolute; bottom: 200; right: 1150; margin: 10vw;">
-      
-        <button style="width: 20vw; height: 10vh; background-color: rgb(224, 120, 22); color: white;">Rating: </button>
-    </div>
+<h2></h2>
+<img src="src/bplusimage2.jpg" style="float: right; width: 200px; height: 200px" />
+<p></p>
+<p></p>
 
-    <!---make a grey button named About Us in the bottom left, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; left: 0; margin: 10vw;">
-        <a href="aboutus.html">
-        <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">About Us</button>
-    </div>
-    <!---make a grey button named Privacy Policy in the bottom right, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; right: 0; margin: 10vw;">
-        <a href="privacypolicy.html">
-            <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">Privacy Policy</button>
-        </a>
-    </div>
+<div class="header">
+  <h2><img src="src/Amazon_icon.svg.png"  style="width: 200px; ;height: 200px; float:left;"></a>Amazon</h2>
+</div>
+
+<div class="row">
+  
+  <!-- <div class="column" style="background-color:#aaa;" ><font size = "300">Overall Rating                      ___________________                4.5</font></div> -->
+  <div class="column" style="background-color:rgb(70, 149, 178);">Basic Explanation: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</div>
+  
+  
+  <div class="column" style="background-color:rgb(124, 70, 178);" ><a href="#"><img src="src/datacookies5.JPG"  style="width: 400px;height: 295px;"></a></div>
+  <div class = "column" style = "background-color:rgb(70,149,178);"><font size="200">Overall Rating 4.5</font></div>
+</div>
+
+
+
 </body>
 </html>

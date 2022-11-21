@@ -80,6 +80,7 @@ body {
     float: right;
     margin-top: -100px;
     margin-right: 50px;
+    color:#252c6a;
 }
 
 .signupbutton {
@@ -89,7 +90,7 @@ body {
 }
 
 .sign-up-button {
-  background-color: #4CAF50; /* Green */
+  background-color: #252c6a; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -101,11 +102,11 @@ body {
 }
 
 .sign-up-button:hover {
-  background-color: #3e8e41;
+  background-color: #18152b;
 }
 
 .sign-in-button {
-  background-color: #4CAF50; /* Green */
+  background-color: #252c6a; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -117,7 +118,7 @@ body {
 }
 
 .sign-in-button:hover {
-  background-color: #3e8e41;
+  background-color: #18152b;
 }
 
 .text {
