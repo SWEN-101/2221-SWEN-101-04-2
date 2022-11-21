@@ -4,28 +4,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RateMyData: Example</title>
+    <link rel="stylesheet" href="src/page2.css">
 </head>
 <body>
-    <!---make a pale yellow rectangle horizontally centered on the screen and centered vertically on the screen, 4/5 the width of the screen with 3 light blue buttons spaced evenly inside it and centered vertically and horizontally saying Example 1, Example 2, Example 3-->
-    <div style="background-color: #FFFFCC; width: 80%; height: 200px; margin: 20vh; display: flex; justify-content: space-around; align-items: center;">
-        <!-- <a href=page3.html>
-        <button style="background-color: lightblue; color: black; width: 20%; height: 60%;" ></a>Example 1</button> -->
-        <form action ="page3.html">
-            <input type="submit"  value = "Example 1" />
+    <div class="container">
+        <form action ="page3.html" class="example1">
+            <input type="submit" value="Example 1"/>
         </form>
-        <button style="background-color: lightblue; color: black; width: 20%; height: 60%;">Example 2</button>
-        <button style="background-color: lightblue; color: black; width: 20%; height: 60%;">Example 3</button>
+        <form action ="page4.html" class="example2">
+            <input type="submit" value="Example 2"/>
+        </form>
+        <form action ="page5.html" class="example3">
+            <input type="submit" value="Example 3"/>
+        </form>
     </div>
 
-    <!---make a grey button named About Us in the bottom left, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; left: 0; margin: 10vw;">
+    <div class="footer-left">
         <a href="aboutus.html">
-        <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">About Us</button>
+        <button class="privacy-policy">About Us</button>
     </div>
-    <!---make a grey button named Privacy Policy in the bottom right, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; right: 0; margin: 10vw;">
+
+
+    <div class="footer-right">
         <a href="privacypolicy.html">
-            <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">Privacy Policy</button>
+            <button class="privacy-policy">Privacy Policy</button>
         </a>
     </div>
 </body>

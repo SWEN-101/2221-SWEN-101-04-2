@@ -1,0 +1,83 @@
+/* center the examples in the middle of the page */
+
+body {
+    --color-primary: #166cce;
+    --color-primary-dark: #166cce;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #166cce;
+    --border-radius: 4px;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(./e6f2ff.jpg);
+    background-size: cover;
+}
+
+/* create a container for the examples */
+
+.container {
+    width: 1600px;
+    max-width: 1600px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #e6f2ff;
+}
+
+.example1 
+
+
+
+
+
+
+
+/* set privacy policy and about us to the bottom of the page */
+
+.footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    color: white;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.privacy-policy {
+    background-color: #252c6a; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.privacy-policy:hover {
+    background-color: #166cce;
+    color: white;
+  }
+
+  
+.footer-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+
