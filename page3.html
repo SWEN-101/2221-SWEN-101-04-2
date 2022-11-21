@@ -1,32 +1,69 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RateMyData: Example</title>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-    <!---make a pale yellow rectangle horizontally centered on the screen and centered vertically on the screen, 4/5 the width of the screen with 3 light blue buttons spaced evenly inside it and centered vertically and horizontally saying Example 1, Example 2, Example 3-->
-    <div style="background-color: #FFFFCC; width: 80%; height: 200px; margin: 20vh; display: flex; justify-content: space-around; align-items: center;">
-        <button style="background-color: lightblue; color: black; width: 20%; height: 60%;" ></a>Example Website</button>
-        
-    </div>
 
-    <div style="position: absolute; bottom: 200; right: 1150; margin: 10vw;">
-      
-        <button style="width: 20vw; height: 10vh; background-color: rgb(224, 120, 22); color: white;">Rating: </button>
-    </div>
+<h2></h2>
+<p></p>
+<p></p>
 
-    <!---make a grey button named About Us in the bottom left, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; left: 0; margin: 10vw;">
-        <a href="aboutus.html">
-        <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">About Us</button>
-    </div>
-    <!---make a grey button named Privacy Policy in the bottom right, spaced from the border of the screen-->
-    <div style="position: absolute; bottom: 0; right: 0; margin: 10vw;">
-        <a href="privacypolicy.html">
-            <button style="width: 20vw; height: 10vh; background-color: grey; color: white;">Privacy Policy</button>
-        </a>
-    </div>
+<div class="header">
+  <h2>Website 1</h2>
+</div>
+
+<div class="row">
+  
+  <div class="column" style="background-color:#aaa;" font size = "50"><font size = "200">Overall Rating                      ___________________                4.5</font></div>
+  <div class="column" style="background-color:#bbb;">Basic Explanation: The RateMyData website is meant to inform users of how their data is being actively collected and distributed by the websites and applications they use. 
+    This is achieved by creating profiles on the website for various websites, applications, and corporations and researching the extent to which they co</div>
+  <div class="column" style="background-color:#ccc;">Data Used</div>
+</div>
+
+
+
 </body>
 </html>
