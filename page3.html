@@ -15,7 +15,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 30px;
   text-align: center;
   font-size: 60px;
@@ -24,9 +24,14 @@ body {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
+  float: top;
   width: 33.33%;
-  padding: 10px;
+  padding: 2px;
   height: 300px; /* Should be removed. Only for demonstration */
+  font-style: oblique;
+  font-size: larger;
+  border: 12px, rgb(124, 17, 17);
+  border-width: 1ch;
 }
 
 /* Clear floats after the columns */
@@ -34,6 +39,7 @@ body {
   content: "";
   display: table;
   clear: both;
+  border: 1px, rgb(81, 18, 18);
 }
 
 
@@ -48,19 +54,22 @@ body {
 <body>
 
 <h2></h2>
+<img src="src/bplusimage2.jpg" style="float: right; width: 200px; height: 200px" />
 <p></p>
 <p></p>
 
 <div class="header">
-  <h2>Website 1</h2>
+  <h2><img src="src/Amazon_icon.svg.png"  style="width: 200px; ;height: 200px; float:left;"></a>Amazon</h2>
 </div>
 
 <div class="row">
   
-  <div class="column" style="background-color:#aaa;" font size = "50"><font size = "200">Overall Rating                      ___________________                4.5</font></div>
-  <div class="column" style="background-color:#bbb;">Basic Explanation: The RateMyData website is meant to inform users of how their data is being actively collected and distributed by the websites and applications they use. 
-    This is achieved by creating profiles on the website for various websites, applications, and corporations and researching the extent to which they co</div>
-  <div class="column" style="background-color:#ccc;">Data Used</div>
+  <!-- <div class="column" style="background-color:#aaa;" ><font size = "300">Overall Rating                      ___________________                4.5</font></div> -->
+  <div class="column" style="background-color:rgb(70, 149, 178);">Basic Explanation: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</div>
+  
+  
+  <div class="column" style="background-color:rgb(124, 70, 178);" ><a href="#"><img src="src/datacookies5.JPG"  style="width: 400px;height: 295px;"></a></div>
+  <div class = "column" style = "background-color:rgb(70,149,178);"><font size="200">Overall Rating 4.5</font></div>
 </div>
 
 
