@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,40 +6,111 @@
     <title>RateMyData: Example</title>
     <link rel="stylesheet" href="src/page2.css">
 </head>
+
+<style>
+	body {
+	  font-family: "Lato", sans-serif;
+	}
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+	
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+	
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+	
+</style>
+
+
 <body>
-    <!--Create a text heading saying welcome user-->
-    <div class="heading_container">
-        <div class="heading">
-            <!-- set the font the a thin sans-serif font-->
-            <h1>Welcome<span id="user_name"></span></h1>
-        </div>
+
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="index.html">Homepage</a>
+	<a href="page2.html">Examples</a>
+	<a href="login.html">Login</a>
+	<a href="privacypolicy.html">Privacy Policy</a>
+	<a href="aboutus.html">About us</a>
+</div>
+
+<div style = "position:fixed; left:0px; top:0px;">
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+
+
+
+
+<body>
+
+	<!--Create a text heading saying welcome user-->
+<div class="heading_container">
+    <div class="heading">
+        <!-- set the font the a thin sans-serif font-->
+        <h1>Welcome<span id="user_name"></span></h1>
     </div>
+</div>
     
 
-    <div class="container">
-        <div class="buttons">
-            <a href="page3.html">
-                <button class="example_buttons">Example 1</button>
-            </a>
-            <a href="page4.html">
-                <button class="example_buttons">Example 2</button>
-            </a>
-            <a href="page5.html">
-                <button class="example_buttons">Example 3</button>
-            </a>
-        </div>
+<div class="container">
+    <div class="buttons">
+        <a href="page3.html">
+            <button class="example_buttons">Example 1</button>
+        </a>
+        <a href="page4.html">
+            <button class="example_buttons">Example 2</button>
+        </a>
+        <a href="page5.html">
+            <button class="example_buttons">Example 3</button>
+        </a>
     </div>
+</div>
 
-        <div class="footer-left">
-            <a href="aboutus.html">
-            <button class="privacy-policy">About Us</button>
-        </div>
-    
-        <div class="footer-right">
-            <a href="privacypolicy.html">
-                <button class="privacy-policy">Privacy Policy</button>
-            </a>
-        </div>
+<div class="footer-left">
+    <a href="aboutus.html"></a>
+    <button class="privacy-policy">About Us</button>
+</div>
+<div class="footer-right">
+    <a href="privacypolicy.html">
+        <button class="privacy-policy">Privacy Policy</button>
+    </a>
+</div>
     
 </body>
-</html>

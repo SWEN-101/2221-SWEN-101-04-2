@@ -4,8 +4,78 @@
     <meta charset="utf-8">
     <title>RateMyData: Privacy Policy</title>
     <link rel="shortcut icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="./src/privacy.css">
+	<link rel="stylesheet" href="./src/main.css">
+
 </head>
+
+<style>
+	body {
+	  font-family: "Lato", sans-serif;
+	}
+	.sidenav {
+	  height: 100%;
+	  width: 0;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+	
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+	  transition: 0.3s;
+	}
+	
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	  margin-left: 50px;
+	}
+	
+</style>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="index.html">Homepage</a>
+	<a href="page2.html">Examples</a>
+	<a href="login.html">Login</a>
+	<a href="privacypolicy.html">Privacy Policy</a>
+	<a href="aboutus.html">About us</a>
+</div>
+
+<div style = "position:fixed; left:0px; top:0px;">
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+
 <body>
 	<div class="section">
 		<div class="container">
@@ -16,10 +86,9 @@
 				<div class="content">
 					<h3>The RateMyData website is meant to inform users of how their data is being actively collected and distributed by the websites and applications they use. 
                   This is achieved by creating profiles on the website for various websites, applications, and corporations and researching the extent to which they collect user cookies and information like names, addresses, and other personal information. The profiles are then rated based on a 0-10 scale, in each of these categories, which are then used to give an overall rating, all of which users of our website have access to. 
-                        </p>
+					</h3>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
-     
